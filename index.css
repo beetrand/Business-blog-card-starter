@@ -13,10 +13,25 @@ body {
 .business-card {
     width: 418px;
     height: 530px;
-    margin: 200px auto 0 auto;
+    margin: 205px auto 0 auto;
     border-radius: 10px;
     overflow: hidden;
     background-color: #FFFFFF;
+}
+
+@media (max-width: 748px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .business-card {
+        margin: 0;
+        /* 中央配置なので不要 */
+    }
 }
 
 .business-card .img {
