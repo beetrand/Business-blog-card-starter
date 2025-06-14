@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #F2F5F9;
+    font-family: 'Lato', sans-serif;
+}
+
+.business-card {
+    width: 418px;
+    height: 530px;
+    margin: 100px auto 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.business-card .img {
+    object-fit: cover;
+}
+
+.business-card h1 {
+    color: #111729;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+}
+
+.title {
+
+    width: 350px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title p {
+    color: #4A5567;
+    line-height: 25px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #F2F5F9;
+    margin: 20px 0px;
+}
+
+.profile {
+    margin-left: 30px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.avator img {
+    display: block;
+    border: 5px solid #F2F5F9;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile .name {
+    color: #111729;
+    font-weight: 600;
+}
+
+.profile .title-affiliation {
+    color: #4A5567;
+    font-size: 13px;
+    font-weight: 600;
+}
